@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Da Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- These links and scripts load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!-- Band name as header used across all the pages of the site --> 
+<header>
+    <a href="index.html">
+        <h1 id="logo">DEF BOND</h1>
+    </a> 
+</header>        
+  <!-- Navigation menu for access to other pages on the site -->
+  <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+  <a class="navbar-brand" href="home">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav"> 
+      <li class="nav-item">
+        <a class="nav-link" href="sign-in">SIGN IN</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="about-us">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="discography">DISCOGRAPHY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="video">VIDEO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tour">TOUR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop-merch">SHOP MERCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us">CONTACT US</a>
+      </li>   
+    </ul>
+  </div>   
+</nav>
+<div class="hero-image">
+  <div class="hero-text">
+    <h2 style="font-size:50px">LIVE IN CONCERT</h2>
+    <!-- Click botton to purchase tickets -->
+    <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>
+        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        <p class="lead"><b>€59.99</b></p>
+    <p class="small">Terms and Conditions Applies.<br>You must be over 18.</p>
+  </div>
+</div>
+    <div class="col" style="background-color:darkgreen;">
+    <br>   
+    <!-- Album cover artwork and It's copyright belongs to Elcamilo - Body Work, via https://www.albumoftheyear.org/-->
+    <h3><span class="badge badge-secondary"> New </span>ALBUM: IMMORTAL</h3>
+    <h5>OUT NOW!</h5>
+    <div class="column">   
+    <img src="https://cdn2.albumoftheyear.org/500x/album/343267-mirrors.jpg" alt="Album Cover" style="width:50%">
+    <p></p>
+    <button class="btn btn-light">iTune <i class="fa fa-apple"></i></button>
+    <a class="apple" href="https://www.itune.com/"></a>
+    <p>Streaming on all music platform.</p>
+    <br>  
+</div>
+</div>
+<br>
+   <!-- Band photo gallery carousel -->
+   <!-- https://www.w3schools.com -->
+<div class="carousel-item"></div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://64.media.tumblr.com/40af4d6d6bbe5455fdeca79187b34468/tumblr_phbuox1CB71qj96tn_1280.png" alt="Stage Photo" width="500" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love New York!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://live.staticflickr.com/65535/49628049318_d0c06e215d_b.jpg" alt="Stage Photo" width="500" height="500">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://64.media.tumblr.com/adc89e33c4e67a8d31567d2366c0aebd/tumblr_phbuoyToJr1qj96tn_1280.png" alt="stage picture" width="500" height="500">
+      <div class="carousel-caption">
+        <h3>Miami Night</h3>
+        <p>Was lit!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<div class="container-fluid">
+<div class="ex1">"One of the the greatest band of all time, their performers is eclectic"<em>Dublin Time</em>.
+</div>
+</div>
+   <!-- Our upcoming shows table -->
+   <!-- https://www.w3schools.com -->
+<div class="container-fluid">
+  <h2>Upcoming Shows</h2>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>VENUE</th>
+        <th>DATE - TIME</th>
+        <th>TICKETS</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>3 Arena Dublin</td>
+        <td>27/07/2021 7:00 PM GMT</td>
+        <td>
+        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>   
+        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Club Haze Berlin</td>
+        <td>02/08/2021 6:00 PM CET</td>
+        <td>
+        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>    
+        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        </td>
+      </tr>
+      </tbody>
+      <tbody>  
+      <tr>
+        <td>02 Indigo Arena London</td>
+        <td>04/08/2021 7:00 PM GMT</td>
+        <td>
+        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>
+        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- Pagination: Allow access to the next page / and other pages of the site -->
+<!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_center -->
+<div class="center">
+  <div class="pagination">
+  <a href="home">&laquo;</a>
+  <a href="home" class="active">1</a>
+  <a href="sign-in">2</a>
+  <a href="about-us">3</a>
+  <a href="discography">4</a>
+  <a href="video">5</a>
+  <a href="tour">6</a>
+  <a href="shop-merch">7</a>
+  <a href="contact-us">8</a>
+  <a href="contact-us">&raquo;</a>
+  </div>
+</div>
+<!-- End of page (footer) is used across all the pages of our website -->
+<footer>
+  <p>Follow us on social media:</p>
+  <p> Contact: management@defbondmusic.com</p>
+  <p>Copyright © 2021 Def Bond Music. All rights reserved.</p>
+</footer>
+</body>
+</html>
