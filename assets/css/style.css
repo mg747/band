@@ -2,7 +2,7 @@
 /* Root variables */
 :root {
     --white: #faf0e6;
-    --black: #000000; 
+    --black: #666666; 
 }
 body {
     background-color: var(--black);   
@@ -97,7 +97,7 @@ body {
 .col-s-12 {width: 100%;}    
 }
 .badge {
-    background-color: #000000;
+    background-color: orangered;
 }
 div {
     text-align: center;
@@ -253,6 +253,7 @@ footer {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
+  height: 50%;
   margin: auto;
   text-align: center;
   font-family: arial;
