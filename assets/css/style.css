@@ -145,8 +145,14 @@ div.ex1 {
   box-sizing: border-box;
   background-color: goldenrod;
   position: relative;
-
-}  
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+} 
 /* Sign in form styling */
 .container, form {
     background-color: #766d5f;
