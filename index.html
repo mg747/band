@@ -15,7 +15,7 @@
 <body>
   <!-- Band name as header used across all the pages of the site --> 
 <div class="header">
-  <a class="logo"  href="def-bond" style="font-size: 50px;">DEF BOND</a> 
+  <a class="logo"  href="home" style="font-size: 50px;">DEF BOND</a> 
   <!-- Navigation menu for access to other pages on the site -->
   <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
   <a class="navbar-brand" href="home">HOME</a>
@@ -117,9 +117,9 @@
 </div>
    <!-- Our upcoming shows table -->
    <!-- https://www.w3schools.com -->
-<div class="container-fluid">
-  <h2>Upcoming Shows</h2>            
-  <table class="table table-bordered">
+<h2 class="text-center">Upcoming Shows</h2>   
+<div class="container-fluid">            
+    <table class="table table-bordered">
     <thead>
       <tr>
         <th>VENUE</th>
@@ -157,8 +157,10 @@
     </tbody>
   </table>
 </div>
+<br>
 <!-- Pagination: Allow access to the next page / and other pages of the site -->
 <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_center -->
+<div class="col-lg">
 <div class="center">
   <div class="pagination">
   <a href="home">&laquo;</a>
@@ -173,19 +175,23 @@
   <a href="contact-us">&raquo;</a>
   </div>
 </div>
+</div>
 <!-- End of page (footer) is used across all the pages of our website -->
 <footer class="text-uppercase">
     <div class="container-fluid">
-		<p>Follow us on:</p>
+        <div class="col-lg" style="background-color: darkslateblue;">
+        <p>Follow us on:</p>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        </ul>          
+            <li><a href="https://www.snapchat.com" target="_blank"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a></li>
+        </ul>              
         <p> Contact: management@defbondmusic.com <span>TEL: 353 1432 765 908.</span></p>
         <p>Copyright © 2021 Def Bond Music. All rights reserved.</p> 
     <br>
+    </div>
     </div>   
 </footer> 
 </body>

@@ -2,7 +2,7 @@
 /* Root variables */
 :root {
     --white: #faf0e6;
-    --black: #666666; 
+    --black: #000000; 
 }
 body {
     background-color: var(--black);   
@@ -101,6 +101,7 @@ body {
 }
 div {
     text-align: center;
+
 }
 .container {
     width: 100%;
@@ -108,36 +109,7 @@ div {
     text-align: center;
     background-color: #ddd;
 }
-.table {
-    color: whitesmoke;
-    background-color: transparent;
-}
-.content {
-    margin-left: 75px;
-    font-size: 30px;  
-}
-/* Pagination styling */
-.pagination {
-    display: inline-block;
-}
-.pagination a {
-    color: white;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #ddd;
-}
-
-.pagination a.active {
-    background-color: red;
-    color: white;
-    border: 1px solid white;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-}
+/* Comment styling */
 div.ex1 {
   width: 300px;
   padding: 25px;
@@ -146,12 +118,104 @@ div.ex1 {
   background-color: goldenrod;
   position: relative;
 }
-.right {
-  position: absolute;
-  right: 0px;
-  width: 300px;
-  border: 3px solid #73AD21;
-  padding: 10px;
+/* Table styling */
+.table {
+    color: whitesmoke;
+    background-color: #766d5f;
+    border: 1px solid white;
+    margin: 1px;
+}
+.td {
+    text-align: center;
+}
+.content {
+    margin-left: 75px;
+    font-size: 30px;  
+  
+}
+/* Pagination styling */
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: #000000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.pagination a.active {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+/*|| END OF PAGE Footer */
+footer {
+  color: #f1f1f1;
+  text-align: center;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+/* Social media icon styling */
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-twitter {
+  background: rgb(37, 139, 218);
+  color: white;
+}
+.fa-instagram {
+  background: #ff004c;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #fff;
 } 
 /* Sign in form styling */
 .container, form {
@@ -231,30 +295,6 @@ input[type=submit]:hover {
   background-color: #766d5f;
   padding: 20px;
 }
-/*|| END OF PAGE Footer */
-footer {
-  color: #f1f1f1;
-  text-align: center;
-}
-
-.social-networks{
-    text-align: center;
-
-}
-
-.social-networks li{
-    display: inline;
-}
-
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: #777777;
-}
-.social-networks i:hover {
-    background: silver;
-}
 /* Shop merch styling */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -286,3 +326,6 @@ footer {
 .card button:hover {
   opacity: 0.7;
 }
+
+
+
