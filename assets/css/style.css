@@ -117,13 +117,47 @@ div.ex1 {
   box-sizing: border-box;
   background-color: goldenrod;
   position: relative;
+  float: right;
 }
 /* Table styling */
+@import "compass/css3";
 .table {
     color: whitesmoke;
-    background-color: #766d5f;
-    border: 1px solid white;
-    margin: 1px;
+    font-family: 'Arial';
+    margin: 25px auto;
+    position: relative;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #0899;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+    0px 10px 20px rgba(0,0,0,0.05),
+    0px 20px 20px rgba(0,0,0,0.05),
+    0px 30px 20px rgba(0,0,0,0.05);
+}
+@import "compass/css3";
+
+tr :hover {
+      background: none;
+}
+      
+td {
+        color: #555;
+
+}
+th, td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+  th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+tbody {
+    vertical-align: middle;
 }
 .td {
     text-align: center;
@@ -133,54 +167,17 @@ div.ex1 {
     font-size: 30px;  
   
 }
-/* Pagination styling */
-.pagination {
-    display: inline-block;
-}
-.pagination a {
-    color: #000000;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #000;
-    background-color: #fff;
-    position: relative;
-}
-
-.pagination a.active {
-    background-color: green;
-    color: white;
-    border: 1px solid white;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-}
 /*|| END OF PAGE Footer */
 footer {
-  color: #f1f1f1;
   text-align: center;
-  margin-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 100%;
 }
-/* Social media icon styling */
-.fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 55px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
 
+/* Social media icon styling */
 .fa:hover {
     opacity: 0.7;
+    color: silver;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -197,7 +194,6 @@ footer {
   background: #ffff;
   color: #e01179;
 }
-
 .fa-snapchat-ghost {
   background: #fffc00;
   color: white;
@@ -207,10 +203,26 @@ footer {
     text-align: center;
 
 }
-
 .social-networks li{
     display: inline;
-} 
+
+}
+.social-networks li a i {
+    width: 35px;
+    height: 35px;
+    padding: 15px 0;
+    line-height: 7px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 13px; 
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    position: relative;
+}
 /* Sign in form styling */
 .container, form {
     background-color: #f1f1f1;
