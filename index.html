@@ -14,19 +14,15 @@
 </head>
 <body>
   <!-- Band name as header used across all the pages of the site --> 
-<div class="header">
-  <a class="home"  href="logo" style="font-size: 50px;">DEF BOND</a> 
+<div class="header">   
   <!-- Navigation menu for access to other pages on the site -->
   <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
-
+      <a class="navbar-brand" href="index.html" style="font-size: 50px;">RAVAZ</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav"> 
-      <li class="nav-item">
-        <a class="nav-link" href="sign-in">SIGN IN</a>
-      </li>  
+    <ul class="navbar-nav">   
       <li class="nav-item">
         <a class="nav-link" href="about-us">ABOUT US</a>
       </li>
@@ -40,9 +36,6 @@
         <a class="nav-link" href="tour">TOUR</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="shop-merch">SHOP MERCH</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="contact-us">CONTACT US</a>
       </li>   
     </ul>
@@ -53,27 +46,22 @@
   <div class="hero-text">
     <h2 style="font-size:50px">LIVE IN CONCERT</h2>
     <!-- Click botton to purchase tickets -->
-    <button type="buy-tickets" class="btn btn-primary">BUY TICKETS</button>
-        <a class="buy-tickets" href="https://www.ticketmaster.ie/"></a>
-        <p class="lead"><b>€59.99</b></p>
-    <p class="small">Terms and Conditions Applies.<br>You must be over 18.</p>
+    <button type="submit" class="btn btn-primary">BUY TICKETS</button>
+        <a class="submit" href="https://www.ticketmaster.ie/"></a>
+        <p class="pric">€59.99</p>
+    <p> <small>Terms and Conditions Applies.<br>You must be over 18.</small></p>
   </div>
 </div>
-    <div class="col" style="background-color: black;">
-    <br>   
-    <!-- Album cover artwork and It's copyright belongs to Borderline Tenderness, via https://www.amazon.co.uk -->
-    <h3><span class="badge badge-secondary"> New </span>ALBUM: IMMORTAL</h3>
-    <h5>OUT NOW!</h5>
-    <div class="column">   
-    <img src="https://media.pitchfork.com/photos/5ec3ef56caddbe3e3b13ab74/1:1/w_320/Medhane.jpg" alt="Album Cover" style="width:170px height=170px">
-    <br>  
-</div>
-</div>
-<iframe src="https://embed.music.apple.com/us/album/dead-presidents-ii/1475940563?i=1475940807&amp;app=music&amp;itsct=music_box_player&amp;itscg=30200&amp;ct=songs_dead_presidents_ii&amp;ls=1" height="150px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
 <br>
+    <div class="col" style="background-color: black;">  
+    <!-- Album cover artwork and It's copyright belongs to Borderline Tenderness, via https://www.amazon.co.uk -->
+    <h3><span class="badge badge-secondary"> New </span>ALBUM: SYMPHONY</h3>
+    <h5>OUT NOW!</h5>   
+    <img src="https://media.pitchfork.com/photos/5ec3ef56caddbe3e3b13ab74/1:1/w_320/Medhane.jpg" alt="Album Cover" style="width:170px"> 
+</div>
    <!-- Band photo gallery carousel -->
    <!-- https://www.w3schools.com -->
-<div class="carousel-item"></div>
+<div class="carousel-item">
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -100,6 +88,7 @@
       </div>   
     </div>
   </div>
+</div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
@@ -126,16 +115,16 @@
         <td>3 Arena Dublin</td>
         <td>27/07/2021 7:00 PM GMT</td>
         <td>
-        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>   
-        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        <button type="submit" class="btn btn-primary">BUY TICKETS</button>   
+        <a class="sumit" href="https://www.ticketmaster.ie/"></a>
         </td>
       </tr>
       <tr>
         <td>Round House Berlin</td>
         <td>02/08/2021 6:00 PM CET</td>
         <td>
-        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>    
-        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        <button type="submit" class="btn btn-primary">BUY TICKETS</button>    
+        <a class="submit" href="https://www.ticketmaster.ie/"></a>
         </td>
       </tr>
       </tbody>
@@ -144,8 +133,8 @@
         <td>02 Indigo Arena London</td>
         <td>04/08/2021 7:00 PM GMT</td>
         <td>
-        <button type="buy-ticket" class="btn btn-primary">BUY TICKETS</button>
-        <a class="buy-ticket" href="https://www.ticketmaster.ie/"></a>
+        <button type="submit" class="btn btn-primary">BUY TICKETS</button>
+        <a class="submit" href="https://www.ticketmaster.ie/"></a>
         </td>
       </tr>
     </tbody>
@@ -154,8 +143,8 @@
 </section>
 <br>
 <!-- End of page (footer) is used across all the pages of our website -->
-<footer>
-        <span>Social Media:</span>
+<div class="footer">
+    <span>Social Media:</span>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
@@ -166,6 +155,6 @@
         <p> Contact: management@defbondmusic.com <span>TEL: 353 1432 765 908.</span></p>
         <p>Copyright © 2021 Def Bond Music. All rights reserved.</p> 
     <br>
-</footer> 
+</div>
 </body>
 </html>
