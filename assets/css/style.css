@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Body styling */
+body {
+    color: #f1f1f1;
+}
 /* Root variables */
 :root {
     --white: #faf0e6;
