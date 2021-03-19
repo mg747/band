@@ -3,15 +3,13 @@
 /* Body styling */
 body {
     color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 /* Root variables */
 :root {
     --white: #faf0e6;
     --black: #000000; 
-}
-/* Body styling */
-body {
-    color: #f1f1f1;
 }
 .header {
   overflow: hidden;
@@ -126,7 +124,7 @@ div {
     color: whitesmoke;
     font-family: 'Arial';
     margin: 25px auto;
-    position: relative;
+    position: fixed;
     border-collapse: collapse;
     border: 1px solid #eee;
     border-bottom: 2px solid #0899;
@@ -138,11 +136,11 @@ div {
 @import "compass/css3";
 
 tr :hover {
-      background: #000000;
+    background: #000000;
 }
       
 td {
-        color: #555;
+    color: #555;
 
 }
 th, td {
@@ -158,9 +156,6 @@ th, td {
     text-transform: uppercase;
     font-size: 14px;
 }
-tbody {
-    vertical-align: middle;
-}
 .td {
     text-align: center;
 }
@@ -171,10 +166,11 @@ tbody {
 }
 /*|| END OF PAGE Footer */
 .footer {
-    padding: 20px;
-    text-align: center;
+    padding: 1em;
     background-color: #000000;
     margin-top: 20px;
+    margin: 0 auto;
+    position: relative;
 }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -203,15 +199,6 @@ tbody {
 .fa-instagram {
   background: #ffff;
   color: #e01179;
-}
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.social-networks{
-    text-align: center;
-
 }
 .social-networks li {
     display: inline;
@@ -316,10 +303,6 @@ input[type=submit]:hover {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /* Float four columns side by side */
 .column {
   float: left;
@@ -357,8 +340,3 @@ body {
   font-size: 18px;
   position: relative;
 }
-
-
-
-
-
