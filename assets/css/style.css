@@ -23,7 +23,7 @@ body {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 24px; 
   line-height: 25px;
   border-radius: 4px;
 }
@@ -57,10 +57,10 @@ body {
     height: 1000px;
     position: relative;
 }
-.responsive {
+/* .responsive {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; */
+
 /* Hero image text styling */
 .col-text {
     text-align: center;
@@ -113,23 +113,6 @@ div {
     text-align: center;
 }
 /* iframe video styling */
-.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 62.5%; /* 8:5 Aspect Ratio */
-}
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 560;
-  height: 100%;
-  border: none;
-}
 /* Table styling */
 /*|| END OF PAGE Footer */
 .footer {
