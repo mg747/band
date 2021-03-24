@@ -3,6 +3,7 @@
 /* Body styling */
 body {
     color: #f1f1f1;
+    background-color:"";
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -65,7 +66,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
 }
 /* Media querie */
 /* For mobile phones: */
@@ -127,57 +127,14 @@ div {
   }
 }
 /* Sign in form styling */
-.container, form {
+ .container {
     background-color: #f1f1f1;
     color: #000000;
     font-family: sans-serif;
-    font-size: large;
+    font-size: large;    
     text-align: left;
     padding: 1em;
     margin: 0 auto;
-
-}
-* {box-sizing: border-box;}
-
-.form-inline {    
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-}
-
-.form-inline label {
-  margin: 5px 10px 5px 0;
-}
-
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.form-inline button {
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-}
-
-.form-inline button:hover {
-  background-color: royalblue;
-}
-
-@media (max-width: 800px) {
-.form-inline input {
-    margin: 10px 0;
-  }
-  
-.form-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }
 }
 /* Contact form styling */
 * {box-sizing: border-box;}
@@ -208,11 +165,6 @@ input[type=submit]:hover {
 /* Discography styling */
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f1f1f1;
 }
 
 /* Float four columns side by side */
@@ -286,7 +238,14 @@ body {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-  } 
+  }
+} 
+.about.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+  background-color: #f1f1f1;
 
 }
 .container {
@@ -306,3 +265,10 @@ body {
   height: 100%;
   border: none;
 }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
