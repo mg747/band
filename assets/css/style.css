@@ -109,58 +109,61 @@ body {
 div {
     text-align: center;
 }
-/* iframe video styling */
-/* Table styling */
-/*|| END OF PAGE Footer */
+/* END OF PAGE Footer */
 .footer {
-    padding: 1em;
-    background-color: #000000;
-    margin-top: 20px;
-    margin: 0 auto;
-    position: relative;
+  padding: 1em;
+  background-color: #000000;
+  margin-top: 20px;
+  margin: 0 auto;
+  position: relative;
 }
+/* Social media icon styling */
+.fa fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-/* Sign in form styling */
- .container {
-    background-color: #f1f1f1;
-    color: #000000;
-    font-family: sans-serif;
-    font-size: large;    
-    text-align: left;
-    padding: 1em;
-    margin: 0 auto;
-}
-/* Contact form styling */
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
+.leftcolumn, .rightcolumn {   
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
+  padding: 0;
 }
 /* Discography styling */
 * {
@@ -173,9 +176,20 @@ input[type=submit]:hover {
   width: 25%;
   padding: 0 10px;
 }
-
+}
+/* Discography styling */
+* {
+  box-sizing: border-box;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -186,14 +200,13 @@ input[type=submit]:hover {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-    padding: 1rem;
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 1rem;
   }
 }
-
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -203,22 +216,15 @@ input[type=submit]:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   background-color: var(--white);
-
 }
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* Contact page container styling*/
-* {
-  box-sizing: border-box;
-}
-
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -226,7 +232,6 @@ input[type=submit]:hover {
   padding: 10px;
   color: #000000;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -236,18 +241,84 @@ input[type=submit]:hover {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+.column {
+  width: 100%;
   }
 } 
-.about.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 75%; /* 4:3 Aspect Ratio */
-  background-color: #f1f1f1;
-
+/* About and Contact container styling */
+* {
+  box-sizing: border-box;
 }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: left;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.container-lg {
+  background-color: #f2f2f2;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: large;    
+  text-align: left;
+  padding: 1em;
+  margin: 0 auto;
+}
+/* Video iframe container styling */
 .container {
   position: relative;
   width: 100%;
@@ -268,7 +339,6 @@ input[type=submit]:hover {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+  width: 100%;
   }
 }
-
