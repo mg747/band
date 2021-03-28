@@ -131,7 +131,7 @@ div .social-media {
   -o-transition: all 0.35s ease-in-out
 }
 .fa-facebook {
-  color: white;
+  color: #3386FF;
   padding: 5px;
   border-radius: 5px;
   width: 36px;
@@ -147,7 +147,7 @@ div .social-media {
   font-size: 30px;
 }
 .fa-twitter {
-  color: #3386FF;
+  color: #f1f1f1;
   padding: 5px;
   border-radius: 5px;
   width: 36px;
