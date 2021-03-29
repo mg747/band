@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
+<body>
   <!-- Band name as header used across all the pages of the site --> 
 <div class="header">   
   <!-- Navigation menu for access to other pages on the site -->
@@ -49,23 +50,12 @@
 <br>
 </div>
 <div class="col">
-<div class="row">
-<div class="col-sm-6" style="background-color: orangered;">
-    <div class="centered" style="font-size:40px">LIVE IN CONCERT</div>
-    <!-- Image and its copyright is property of Twenty One Pilot, linked from https://www.tumblr.com -->   
-    <img src="https://64.media.tumblr.com/40af4d6d6bbe5455fdeca79187b34468/tumblr_phbuox1CB71qj96tn_1280.png" alt="Stage Photo" class="responsive" width="600" height="400">
-<hr>
-    <!-- Click link to purchase tickets -->
-    <a class="buy-tickets" href="https://www.ticketmaster.ie/">BUY TICKETS</a>
-    <p class="price">€59.99</p>
-    <p class="small">Terms and Conditions Apply.<br>You must be over 18.</p>
-    <br>
-    </div>   
-<div class="col-sm-6" style="background-color: black;">
-<div class="centered" style="font-size:40px">FAN ZONE</div>    
+<div class="row">   
+<div class="col-sm-6" style="background-color: green;">
+<div class="centered" style="font-size:40px">FAN ZONE</div>        
 <form id="regForm" action="/action_page.php">
     <p>Subscribe to our mailing list for exclusive content, early access to ticket sales and latest updates...</p>
-  <h1>Sign Up:</h1>
+  <h2>Sign Up</h2>
   <!-- One "tab" for each step in the form: -->
   <div class="tab">Name:
     <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
@@ -180,6 +170,17 @@ function fixStepIndicator(n) {
 }
 </script>
 </div>
+<div class="col-sm-6" style="background-color: orangered;">
+    <div class="centered" style="font-size:40px">LIVE IN CONCERT</div>
+    <!-- Image and its copyright is property of Twenty One Pilot, linked from https://www.tumblr.com -->   
+    <img src="https://64.media.tumblr.com/40af4d6d6bbe5455fdeca79187b34468/tumblr_phbuox1CB71qj96tn_1280.png" alt="Stage Photo" class="responsive" width="600" height="400">
+<hr>
+    <!-- Click link to purchase tickets -->
+    <a class="buy-tickets" href="https://www.ticketmaster.ie/">BUY TICKETS</a>
+    <p class="price">€59.99</p>
+    <p class="small">Terms and Conditions Apply.<br>You must be over 18.</p>
+    <br>
+</div>
 </div>
 </div>    
 <br>
@@ -212,4 +213,5 @@ function fixStepIndicator(n) {
     <br>
     </div>  
 </footer>
+</body>
 </html>

@@ -71,10 +71,8 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.button {
-    background-color: #4CAF50;
-    color: #f1f1f1;
-}
+/* Buy tickets button styling */
+
 /* Media querie */
 /* For mobile phones: */
 [class*="col-"] {
@@ -118,7 +116,7 @@ hr {
     border: none;
 }
 /* END OF PAGE Footer */
-.footer {
+.footer {  
   padding: 1em;
   background-color: #000000;
   margin-top: 20px;
@@ -336,13 +334,9 @@ input[type=submit]:hover {
 * {
   box-sizing: border-box;
 }
-
-body {
-  background-color: #f1f1f1;
-}
-
 #regForm {
   background-color: #ffffff;
+  color: #000;
   margin: 100px auto;
   font-family: Raleway;
   padding: 40px;
