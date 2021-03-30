@@ -1,10 +1,12 @@
 # Welcome to our band website
 
+![Site Screenshot](https//4C912682-AABE-48B3-A228-9B69066E3E41.png)
+
 https://mg747.github.io/band/
 
 ### Project Title: Band
 ### Band Name: Natty Boiz
-### Genre: Alternative Hip-Hop
+### Genre: Hip-Hop
 
 ## Wireframes
 
