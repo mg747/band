@@ -339,7 +339,7 @@ input[type=submit]:hover {
   color: #000;
   margin: 100px auto;
   font-family: Raleway;
-  padding: 40px;
+  padding: 20px;
   width: 70%;
   min-width: 300px;
 }
@@ -433,5 +433,5 @@ button:hover {
 .table {
     color: #faf0e6;
     background-color: #000000;
-
 }
+
