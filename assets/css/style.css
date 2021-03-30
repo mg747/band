@@ -3,13 +3,15 @@
 /* Body styling */
 body {
     color: #f1f1f1;
-    background-color:"";
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 /* All pages div styling */
 div {
     text-align: center;
+}
+.fanzone {
+    color: red;
 }
 /* Root variables */
 :root {
@@ -50,12 +52,12 @@ div {
     float: none;
 }
 /* Our home page hero image */
-/* Basquiat skateboard art, owner Basquiat via https://www.yoox.com/ */
+/* Image and Its copyright belong to Hype Magazine via https://thehypemagazine.com/ */
 .hero-image {
-    background: url("https://secure.social.yoox.it/yspecial/art-editorial/basquiat/4.jpg") no-repeat center;
+    background: url("https://media.thehypemagazine.com/wp-content/uploads/2021/03/pexels-pixabay-220201-620x350.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 500px;
     position: relative;
 }
 .responsive {
@@ -299,7 +301,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
   padding: 20px;
   text-align: right;
 }
@@ -411,7 +413,7 @@ button:hover {
   width: 100%;
   overflow: hidden;
   padding-top: 75%; /* 4:3 Aspect Ratio */
-  background-color: #f1f1f1;
+  background-color: #111b22; 
 }
 .responsive-iframe {
   position: absolute;
@@ -433,5 +435,18 @@ button:hover {
 .table {
     color: #faf0e6;
     background-color: #000000;
+}
+/* Buy tickets button styling */
+.btn {
+  background-color: #0060FF;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;  
 }
 
