@@ -122,6 +122,12 @@ div {
 hr {
     border: none;
 }
+.col-sm-6 {
+    color: #000000;
+}
+.col-sm-6, h3, p {
+    color: #ddd;
+}
 /* END OF PAGE Footer */
 .footer {  
   padding: 1em;
