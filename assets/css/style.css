@@ -122,7 +122,7 @@ hr {
 }
 .col-sm-6 {
     color: #000000;
-    background-image: linear-gradient(orangered, gold);
+    background-image: linear-gradient(orangered, gold)
 }
 .col-sm-6, h3, p {
     color: #ddd;
@@ -368,7 +368,10 @@ input[type=submit]:hover {
 }
 .table {
     color: #faf0e6;
-    background-color: #000000;
+    background-color:#000;
+}
+.thead, th {
+    background-color: #009999;
 }
 /* Buy tickets button styling */
 .btn {
