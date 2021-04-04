@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-/* Root variables */
-:root {
-    --white: #faf0e6;
-    --black: #000000;
-}
 /* Body styling */
 body {
-    color: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -113,7 +107,7 @@ div {
 .col-s-11 {width: 91.66%;}
 .col-s-12 {width: 100%;}    
 }
-/* Album col */
+/* Album cover badge */
 .badge {
     background-color: green; 
 }
@@ -131,6 +125,7 @@ hr {
 .footer {  
   padding: 1em;
   background-color: #000000;
+  color: #f1f1f1;
   margin-top: 20px;
   margin: 0 auto;
   position: relative;
@@ -189,17 +184,15 @@ div .social-media {
   width: 100%;
   padding: 0;
 }
-/* Discography styling */
-* {
-  box-sizing: border-box;
 }
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
+div.container {
+ /* About and Contact text style */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;    
+  text-align: left;
+  padding: 1em;
+  margin: 0 auto;
 }
 /* Discography styling */
 * {
@@ -236,10 +229,10 @@ div .social-media {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
-  color: var(--black);
+  background-color:rgb(16, 28, 39);
+  columns: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  background-color: var(--white);
 }
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
@@ -268,78 +261,6 @@ div .social-media {
 .column {
   width: 100%;
   }
-} 
-/* About and Contact container styling */
-* {
-  box-sizing: border-box;
-}
-.container-lg {
-  background-color: #f2f2f2; /* About and Contact text style */
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;    
-  text-align: left;
-  padding: 1em;
-  margin: 0 auto;
-}
-form {
-  border: 3px solid #f1f1f1;
-  font-family: Arial;
-}
-
-.container {
-  padding: 20px;
-  background-color: #000;
-}
-
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=checkbox] {
-  margin-top: 16px;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
 /* Video iframe container styling */
 .resp-container {
@@ -360,12 +281,46 @@ input[type=submit]:hover {
   height: 100%;
   border: 0;
 }
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
   width: 100%;
   }
 }
+/* Upcoming show table styling */
 .table {
     color: #faf0e6;
     background-color:#000;
