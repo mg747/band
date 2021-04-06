@@ -298,14 +298,14 @@ input[type=submit]:hover {
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+.column {
   width: 100%;
   }
 }
 /* Upcoming show table styling */
 .table {
-  color: #faf0e6;
-  background-color:#000;
+  color: #000;
+  background-color:#F9F9FF;
 }
 .thead, th {
   background-color: #009999;
