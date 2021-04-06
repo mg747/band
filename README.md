@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mg747.github.io/band/)
 
-<h2 align="center"><img src="https//4C912682-AABE-48B3-A228-9B69066E3E41.png"></h2>
+<h2 align="center"><assets/images/bandsitecreenshot.png"></h2>
 
 ## User Experience (UX)
 
