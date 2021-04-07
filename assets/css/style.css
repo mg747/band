@@ -322,24 +322,21 @@ input[type=submit]:hover {
 .btn:hover {
   opacity: 1;  
 }
+/* Confirmation button */
 .button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
   color: #fff;
-  background-color: #000;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  background-color: orangered;
+  text-align: center;
   text-decoration: none;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
-
-.button:hover {background-color: #000}
-
+.button:hover {background-color:#000; color: #f1f1f1}
 .button:active {
   background-color: #000;
-  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
