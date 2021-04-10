@@ -12,7 +12,7 @@ div {
 /* Header styling */
 .header {
   overflow: hidden;
-  background-color: #000;
+  background-color:rgb(16, 28, 39);
   padding: 20px 10px;
 }
 .header a {
@@ -24,7 +24,7 @@ div {
   border-radius: 4px;
 }
 .header a:hover {
-  background-color: #000;
+  background-color:rgb(16, 28, 39);
   color: silver;
 
 }
@@ -33,7 +33,7 @@ div {
   text-align: center;
   font-size: large;
   font-weight: 700;
-  background-color: black;
+  background-color:rgb(16, 28, 39);
   color: #f1f1f1;
 }
 .navbar, ul li {
@@ -304,8 +304,8 @@ input[type=submit]:hover {
 }
 /* Upcoming show table styling */
 .table {
-  color: #000;
-  background-color:#F9F9FF;
+  color: gainsboro;
+  background-color:#000;
 }
 .thead, th {
   background-color: #009999;
@@ -339,4 +339,10 @@ input[type=submit]:hover {
 .button:active {
   background-color: #000;
   transform: translateY(4px);
+}
+/* Contact page image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
