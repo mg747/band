@@ -67,13 +67,11 @@
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-3. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome 4.7:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 4. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
@@ -117,6 +115,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. These are clearly shown underneath the hero image. To the left is a Album cover for the band's latest Album.
         2. To the right is a banner about upcoming show in Dublin with a buy tickets button that will direct a user to the Tour page for more information about upcoming shows and tickets availability.
+        3. Underneath upcoming show in Dublin is a form for user to "Subscribe to our Newsletter" and are prompted to enter their Name and Email Address.
+        3. There is a "Subscribe" button underneath the input field which can easily be distinguished.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
@@ -138,9 +138,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or upcoming events.
         
-        1. At the bottom of every page there is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        1. At the bottom of every page there is a footer with social media links, which content is consistent throughout all pages.
+        3. There is .
 
 ### Further Testing
 
@@ -207,9 +206,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [Tumblr post](https://tumblr.com)
+-   The hero image code came from this [Tumblr](https://tumblr.com)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
@@ -221,14 +220,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images, Audio and Videos copyrights belongs to the artist and/or organisation mentioned on the code comments.
-
-### Author
-
--   Morgan Ugiagbe
+-   All Images, Audio and Videos copyrights belongs to the artist and/or organisation mentioned on code comments.
 
 ### Acknowledgements
 
 -   My Mentor for his continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+### Author
+
+-   Morgan Ugiagbe
