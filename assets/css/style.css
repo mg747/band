@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /* Body styling */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +11,7 @@ div {
 /* Header styling */
 .header {
   overflow: hidden;
-  background-color:rgb(16, 28, 39);
+  background-color:#000;
   padding: 20px 10px;
 }
 .header a {
@@ -24,7 +23,7 @@ div {
   border-radius: 4px;
 }
 .header a:hover {
-  background-color:rgb(16, 28, 39);
+  background-color:#000;
   color: silver;
 
 }
@@ -33,7 +32,7 @@ div {
   text-align: center;
   font-size: large;
   font-weight: 700;
-  background-color:rgb(16, 28, 39);
+  background-color:#000;
   color: #f1f1f1;
 }
 .navbar, ul li {
@@ -49,6 +48,7 @@ div {
   position: relative;
 }
 /* Hero image text styling */
+/* Linked from https://freefrontend.com/css-glow-text-effects/ */
 .hero-text {  
   text-align: center;
   font-size: 6em;
