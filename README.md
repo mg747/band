@@ -1,8 +1,8 @@
-<h1 align="center">Welcome To Our Website</h1>
+<h1 align="center">Welcome To Natty Boiz Website</h1>
 
 [View the live project here.](https://mg747.github.io/band/)
 
-<h2 align="center"><assets/images/bandsitecreenshot.png"></h2>
+![Site Screenshot](assets/images/sitescreenshot.png)
 
 ## User Experience (UX)
 
@@ -36,13 +36,21 @@
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
-*   ### Wireframes
+*   ## Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+-   Desktop View
 
-    -   Mobile Wireframe - [View](https://github.com/)
+#### Home Page Skeleton Plane
+![Site Home Page Skeleton Plane](assets/images/homepagescreenshot.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+#### About Us Page Skeleton Plane
+![Site About Us Page Skeleton Plane](assets/images/aboutusscreenshot.png)
+
+#### Discography Page Skeleton Plane
+![Site Discography Page Skeleton Plane](assets/images/discographyscreenshot.png)
+
+#### Contact Us Page Skeleton Plane
+![Contact Us Page Skeleton Plane](assets/images/contactusscreenshot.png)
 
 ## Features
 
@@ -139,7 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 11 & Samsung Galaxy A5.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -219,10 +227,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Author
 
--   Morgan Ug
+-   Morgan Ugiagbe
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for his continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
