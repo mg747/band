@@ -81,9 +81,7 @@
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-7. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-8. [Balsamiq:](https://balsamiq.com/)
+7. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
@@ -109,7 +107,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their fans think of them and know why they are so successful. I also want to locate their social media links to see their followers.
         
-        1. Once the new visitor has read the About Us and What We Do text, they will know Why We have a Successful Career and are Loved So Much.
+        1. Once the new visitor has read the About Us and What We Do text, they will know why we have such a successful career and why we are loved so much by our fans.
         2. The user can also scroll to the bottom of any page of the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the band agent, management and/or press relation through email or telephone for bookings and general enquiries.
 
