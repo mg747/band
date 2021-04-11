@@ -1,8 +1,8 @@
-<h1 align="center">Welcome To Natty Boiz Website</h1>
+<h1 align="center">Welcome To Da Lick Website</h1>
 
 [View the live project here.](https://mg747.github.io/band/)
 
-![Site Screenshot](assets/images/sitescreenshot.png)
+![Site Screenshot]
 
 ## User Experience (UX)
 
@@ -44,7 +44,7 @@
 ![Site Home Page Skeleton Plane](assets/images/homepagescreenshot.png)
 
 #### About Us Page Skeleton Plane
-![Site About Us Page Skeleton Plane](assets/images/aboutusscreenshot.png)
+![About Us Page Screenshot](assets/images/aboutuscreenshot.png)
 
 #### Discography Page Skeleton Plane
 ![Site Discography Page Skeleton Plane](assets/images/discographyscreenshot.png)
