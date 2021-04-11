@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mg747.github.io/band/)
 
-![Site Screenshot]
+![Site Screenshot](assets/images/websitescreenshot.png)
 
 ## User Experience (UX)
 
