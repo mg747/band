@@ -223,7 +223,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images, Audio and videos copyrights belongs to the artist and/or organisation mentioned in the code comments.
+-   All Images, Audio and Videos copyrights belongs to the artist and/or organisation mentioned on the code comments.
 
 ### Author
 
