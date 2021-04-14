@@ -1,6 +1,6 @@
 /* Body styling */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   margin: 0;
 }
 /* General div styling */
@@ -48,7 +48,7 @@ div {
   position: relative;
 }
 /* Hero image text styling */
-/* Linked from https://freefrontend.com/css-glow-text-effects/ */
+/* Copied from https://freefrontend.com/css-glow-text-effects/ */
 .hero-text {  
   text-align: center;
   font-size: 6em;
@@ -118,6 +118,7 @@ hr {
   position: relative;
 }
 /* Social media icon styling */
+/* Copied from https://www.w3schools.com */
 div .social-media {
   padding: 0;
   margin: 1em;
@@ -173,7 +174,7 @@ div .social-media {
 }
 /* About text styling */
 .container {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 18px;    
   text-align: left;
   padding: 1em;
@@ -269,7 +270,7 @@ div .social-media {
 /* Email newsletter form styling */
 form {
   border: 3px solid #f1f1f1;
-  font-family: Arial;
+  font-family: arial;
 }
 .container {
   padding: 20px;
