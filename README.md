@@ -1,8 +1,48 @@
-<h1 align="center">Welcome To Da Lick Website</h1>
+<h1 align="center">P1 Band Website</h1>
 
 [View the live project here.](https://mg747.github.io/band/)
 
 ![Site Screenshot](assets/images/websitescreenshot.png)
+### Band Name: Da Lick
+### Genre: Hip-Hop
+
+## Contents
+* [User Experience Design (UX)](#User-Experience-Design)
+    * [User Stories](#User-Stories)
+        * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+        * [Returning Visitor Goals](#Returning-Visitor-Goals)
+        * [Frequent User Goals](#Frequent-User-Goals)
+
+    * [Design](#Design)
+        * [Colour Scheme](#Colour-Scheme)
+        * [Typography](#Typography)
+        * [Imagery](#Imagery)        
+   
+    * [Wireframes](#Wireframes)
+        * [Desktop View](#Desktop-View)
+        
+* [Features](#Features)
+    * [Responsive on all devices](#Responsive-on-all-device-sizes)
+    * [Interactive elements](#Interactive-elements)
+* [Technologies Used](#Technologies-Used)
+* [Languages Used](#Languages-Used)
+* [Frameworks Libraries & Programs Used](Frameworks-Libraries-&-Programs-Used)
+
+* [Testing](#Testing)
+* [Testing User Stories from User Experience (UX) Section](Testing-User-Stories-from-User-Experience-(UX)-Section)
+* [Further Testing](Further-Testing)
+* [Known Bugs](Known-Bugs)
+    
+* [Deployment](#Deployment)
+    * [GitHub Pages](#Deployment-To-Heroku)
+    * [Forking the GitHub Repository](#Forking-the-GitHub-Repository)
+    * [Making a Local Clone](#Making-a-Local-Clone)
+
+* [Credits](#Credits)
+    * [Code](#Code)
+* [Content](#Content)
+* [Media](#Media)
+* [Acknowledgements](#Acknowledgements)
 
 ## User Experience (UX)
 
@@ -14,14 +54,11 @@
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to look for testimonials to understand what their fans think of them and know why they are so successful. 
         4. As a First Time Visitor, I want to sign up to the Newsletter so that I am emailed any major updates. 
-        5. I also want to locate their social media links to see their posts and followers on social media.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about the band.
-        2. As a Returning Visitor, I want to see information about upcoming shows and tickets availability.
-        3. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have. 
-        4. I want to find community links.
+        1. As a Returning Visitor, I want to see information about upcoming shows and tickets availability.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have. 
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any news and/or updates.
@@ -34,11 +71,11 @@
     -   #### Typography
         -   The Arial font is the main font used throughout the whole website with Helvetica and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Arial is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 *   ## Wireframes
 
--   Desktop View
+-   #### Desktop View
 
 #### Home Page Skeleton Plane
 ![Site Home Page Skeleton Plane](assets/images/homepagescreenshot.png)
@@ -96,55 +133,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the band.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text.
-        2. The main points are made immediately with the navigation bar, the hero image with live in concert text.
+        2. The main points are made immediately with the navigation bar, the Hero image with Live In Concert text.
 
     2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. The band name is on the top left on the navigation bar band, when is clicked on it takes the user back to the home page to ensure that user can always go back to the home page of the site.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what page they will end up at clearly.
+        2. The band name is on the top left on the navigation bar, when clicked on; it returns the user back to the home page of the site.
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their fans think of them and know why they are so successful. I also want to locate their social media links to see their followers.
         
-        1. Once the new visitor has read the About Us and What We Do text, they will know why we have such a successful career and why we are loved so much by our fans.
-        2. The user can also scroll to the bottom of any page of the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the band agent, management and/or press relation through email or telephone for bookings and general enquiries.
+        1. Once the new visitor has read the About Us and what we do text, they will know why we have such a successful career and why we are loved so much by fans all over the World.
+        2. The user can also scroll to the bottom of any page of the site to locate our social media links in the footer.
 
+    4. As a First Time Visitor, I want to sign up to Newsletter so that I am emailed any major updates.
+
+        1. There is a "Subscribe to our Newsletter" short form with Name and Email Address input underneath upcoming show in Dublin on the Home page.
+     
+        
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find news and, check if there's new music or video and information about upcoming events.
+    1. As a Returning Visitor, I want to find news and check if there's new music or video and information about upcoming events.
 
-        1. These are clearly shown underneath the hero image. To the left is a Album cover for the band's latest Album.
-        2. To the right is a banner about upcoming show in Dublin with a buy tickets button that will direct a user to the Tour page for more information about upcoming shows and tickets availability.
-        3. Underneath upcoming show in Dublin is a form for user to "Subscribe to our Newsletter" and are prompted to enter their Name and Email Address.
-        3. There is a "Subscribe" button underneath the input field which can easily be distinguished.
-
+        1. These are clearly shown underneath the Hero image. To the left is an Album cover for the band's new music. Underneath the Album cover, there is a Video.
+        2. To the right is a stage photo with text about upcoming show in Dublin and a buy tickets button that will redirect a user to Official Ticket site to purchase tickets. 
+    
     2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the band on social media.
-        3. The footer contains links to the band Facebook, Youtube, Twitter and Instagram page.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. The footer contains links to the band Facebook, Youtube, Twitter and Instagram page.
+        3. At the bottom of the Contact Us page, there is email and telephone contact information of the band agent, management and press relation for bookings and general inquiries.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see updates about the band upcoming shows and tickets availability.
 
-        1. The user would already be comfortable with the website layout and can easily see this information underneath the Hero Image and on the Tour Page Table.
+        1. The user would already be comfortable with the website layout and can easily see this information at bottom right, underneath the Hero image.
+        2. There is also a table at the bottom of the Home page for more information about upcoming shows and tickets availability.
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
         1. The user would already be comfortable with the website layout and can easily click the social media link at footer, the bottom of every page.
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or upcoming events.
+    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or upcoming event.
         
-        1. At the bottom of every page there is a footer with social media links, which content is consistent throughout all pages.
-        3. There is .
+        1. The user would already be comfortable with the website layout and can easily see "Subscribe to our Newsletter" short form underneath upcoming show in Dublin on the Home page.
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 11 & Samsung Galaxy A5.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 11 and Samsung Galaxy A5.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -206,25 +243,23 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The hero image code came from this [Tumblr](https://tumblr.com)
+-   The Hero image neon text effect code was copied and modified from this [CSS Tutorial](https://freefrontend.com/css-glow-text-effects)
 
--   [Bootstrap4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   Home page table, Discography column cards and Social Media icon css code were copied and modified from [w3schools](https://www.w3schools.com)
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   Bootstrap Library was used throughout the project mainly to make site responsive using the Bootstrap Grid System [Bootstrap4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
--   All Images, Audio and Videos copyrights belongs to the artist and/or organisation mentioned on code comments.
+-   All Images, Audio and Video copyrights belongs to the artist and/or organisation mentioned in code comments.
 
 ### Acknowledgements
 
--   My Mentor for his continuous helpful feedback.
+-   My Mentor Dick Vlaanderen for his helpful guidiance and feedback.
 
 -   Tutor support at Code Institute for their support.
 
