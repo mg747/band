@@ -3,8 +3,8 @@
 [View the live project here.](https://mg747.github.io/band/)
 
 ![Site Screenshot](assets/images/websitescreenshot.png)
-### Band Name: Da Lick
-### Genre: Hip-Hop
+#### Band Name: Da Lick
+#### Genre: Hip-Hop
 
 ## Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -154,7 +154,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Returning Visitor, I want to find news and check if there's new music or video and information about upcoming events.
 
-        1. These are clearly shown underneath the Hero image. To the left is an Album cover for the band's new music. Underneath the Album cover, there is a Video.
+        1. These are clearly shown underneath the Hero Image. To the left is an Album cover for the band's new music. Underneath the Album cover, there is a Video.
         2. To the right is a stage photo with text about upcoming show in Dublin and a buy tickets button that will redirect a user to Official Ticket site to purchase tickets. 
     
     2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
@@ -243,7 +243,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The Hero image neon text effect code was copied and modified from this [CSS Tutorial](https://freefrontend.com/css-glow-text-effects)
+-   The Hero Image neon text effect code was copied and modified from this [CSS Tutorial](https://freefrontend.com/css-glow-text-effects)
 
 -   Home page table, Discography column cards and Social Media icon css code were copied and modified from [w3schools](https://www.w3schools.com)
 
