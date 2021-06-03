@@ -4,7 +4,7 @@
 
 ![Site Screenshot](assets/images/websitescreenshot.png)
 #### Band Name: Da Lick
-#### Genre: Hip-Hop
+#### Genre: Alternative, Hip-Hop
 
 ## Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -130,7 +130,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the band.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar  alert about the band tour, underneath that is the navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text. (assets/images/screenshot1.png)
         2. The main points are made immediately with the navigation bar, the Hero Image with Live In Concert text.
 
     2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find content.
@@ -140,32 +140,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their fans think of them and know why they are so successful. I also want to locate their social media links to see their followers.
         
-        1. Once the new visitor has read the About Us and what we do text, they will know why we have such a successful career and why we are loved so much by fans all over the World.
-        2. The user can also scroll to the bottom of any page of the site to locate our social media links in the footer.
+        1. Once the new visitor has read the About Us and what we do text, they will know why we have such a successful career and why we are loved so much by fans all over the World. (assets/images/screenshot2.png) 
+        2. The user can also scroll to the bottom of any page of the site to locate our social media links in the footer. (assets/images/screenshot3.png)
 
     4. As a First Time Visitor, I want to sign up to the Band Newsletter so that I am emailed any major news or updates.
 
-        1. There is a "Subscribe to our Newsletter" short form with Name and Email Address input underneath Performing in Dublin promotional image on the Home page.
+        1. There is a "Subscribe to our Newsletter" short form with Name and Email Address input on the right, underneath the hero image on the Home page. (assets/images/screenshot4.png)
         
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find news and check if there's new music or video and information about upcoming events.
 
-        1. These are clearly shown underneath the Hero Image. To the left is an Album cover of the Band new music. Underneath the album cover, there is a music video.
-        2. To the right is a stage photo with text about upcoming show in Dublin and a buy tickets button that will redirect a user to the Official Ticket site to purchase tickets. 
+        1. These are clearly shown underneath the Hero Image. To the left is an image with text about upcoming show in Dublin with a buy tickets button that will redirect a user to the official ticket site to purchase tickets and beside it is an Album cover of the Band new music. (assets/images/screenshot5.png) Underneath the album cover, there is a music video. (assets/images/screenshot6.png) 
     
     2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. The footer contains links to the band Facebook, Youtube, Twitter and Instagram page.
-        3. At the bottom of the Contact Us page, there is email and telephone contact information of the band agent, management and press relation for booking and general inquiries.
+        3. On the Contact Us page, there is email and telephone contact information of the band agent, management and press relation for booking and general enquiry. (assets/images/screenshot7.png)
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see updates about the band upcoming shows and tickets availability.
 
-        1. The user would already be comfortable with the website layout and can easily see this information at the bottom right, underneath the Hero Image.
-        2. There is also a table at the bottom of the Home page for more information about upcoming shows and tickets availability.
+        1. The user would already be comfortable with the website layout and can easily see information table about upcoming shows and tickets availability at the bottom of the Home page, underneath the band photo carousel. (assets/images/screenshot8.png)
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
@@ -173,20 +171,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Frequent User, I want to sign up to the Band Newsletter so that I am emailed any major updates and/or changes to the website or upcoming event.
         
-        1. The user would already be comfortable with the website layout and can easily see "Subscribe to our Newsletter" short form underneath performing in Dublin promotional image on the Home page.
+        1. The user would already be comfortable with the website layout and can easily see "Subscribe to our Newsletter" short form on the right underneath the hero image on the Home page.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 11 and Samsung Galaxy A5.
+-   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone X, iPhone SE and Samsung Galaxy A5 and iPad.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some mobile devices the nav alert on the homepage doesn't show any information, instead it shows a white space but information appears on desktop and tablets. pushes the size of screen out more than any of the other content on the page.
+    -   A white gap can be seen to the right of the contact page on desktop and tablet devices and navigation bar and footer of the page as a result.
 
 ## Deployment
 
@@ -197,22 +194,22 @@ The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section then click to open Github pages tab.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://mg747.github.io/band/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/band/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/band/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -241,6 +238,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The Hero Image neon text effect code was copied and modified from this [CSS Tutorial](https://freefrontend.com/css-glow-text-effects)
+
+-   Home page nav alert code was copied and modified from beyond bootstrap lesson on the course User Centric Frontend Development module.
 
 -   Home page table, Discography column cards and Social Media icon css code were copied and modified from [w3schools](https://www.w3schools.com)
 
