@@ -1,6 +1,6 @@
 @media(max-width: 639px) {
   #nav-bar {
-    min-height: 48px;
+  min-height: 48px;
   }
 }
 /* Body styling */
@@ -22,11 +22,9 @@ div {
 }
 /* Navigation bar styling */
 .navbar {
+  font-weight: bold;
   text-align: center;
-  font-size: large;
-  font-weight: 700;
-  background-color:#000;
-  color: #881919;
+  color: #fff;
 }
 .navbar, ul li {
   float: none;
