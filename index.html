@@ -4,7 +4,6 @@
   <title>Band</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!-- These links and scripts load an icon library to show a hamburger menu (bars) on small screens -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,18 +12,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>   
+<body>
   <!-- Navigation alart -->
   <div class=".container-fluid navalert-container">
-    <div class=".container-fluid alert-container">
+    <div class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
-            <div class="col-12">
                 <div class="site-wide-alert alert alert-warning">
                   <strong>Da Lick brings the Symphony Tour to Europe</strong> Tickets on sale now! <a href="https://www.ticketmaster.ie/" target="_blank">Click here for more details...</a>
                 </div>
             </div>
-        </div>
-    </div>   
+    </div>
+    </div>     
     <!-- Navigation menu for access to other pages on the site -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="index.html" style="font-size: 35px;">DA LICK</a>
@@ -48,10 +46,10 @@
       </ul>
     </div>   
   </nav>
-  </div>
         <!-- Hero image and text -->
           <div class="hero-image">
-          <div class="hero-text">
+            <br>
+            <div class="hero-text">
             <h1 class="text-center">LIVE IN CONCERT</h1>
           </div>
           </div>
@@ -66,9 +64,12 @@
       <h2>PERFORMING LIVE IN DUBLIN</h2>
     <h2 style="color:red">DIGITAL ARENA</h2>
     <p style="color:green">DATE: 27 SEP 2021 <br>TIME: 7:00 PM GMT</p>
-    <a href="https://www.ticketmaster.ie/" target="_blank"" class="btn btn-dark">Buy Tickets</a>
-    <br>
     <small class="text-muted">Terms and Conditions Apply.</small>
+    <br>
+    <div class="container">
+    <button class="buy-tickets"></button>
+      <a href="https://www.ticketmaster.ie/" target="_blank" class="btn btn-dark">Buy Tickets</a>
+    </div>
     </div>
     </div>
     <div class="column">
@@ -76,9 +77,12 @@
       <div class="card text-center">
         <h4 class="card-text"><span class="badge badge-success">New</span> Album Symphony</h4>
         <h4>Out Now!</h4>
-        <a href="https://spotify.com/" target="_blank"" class="btn btn-dark">Stream Album</a>
+      <div class="container">    
+    <button class="stream-album"></button>
+    <a href="https://spotify.com/" target="_blank" class="btn btn-dark">Stream Album</a>
       </div>
-    </div>  
+      </div>
+      </div> 
   <div class="column">
     <div class="card">
       <form action="confirmation.html">
@@ -102,7 +106,7 @@
 </div>
 </div>
 <div class="card text-center">
-  <h2>New Video</h2>
+  <h3>Video: Until The End Of Time</h3>
     <div class="resp-container">
     <div class="ratio ratio-4x3">
       <iframe class="responsive-iframe" src="https://www.youtube.com/embed/jdWXS3BPt_0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
@@ -111,11 +115,11 @@
     </div>
   <!-- Band Photos Carousel -->
   <!-- https://www.w3schools.com -->
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -143,10 +147,10 @@
       </div>   
     </div>
   </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
@@ -169,7 +173,8 @@
         <td>Virtual Concert</td>
         <td>18/06/2021 5:00 PM GMT</td>
       <td>
-          <a href="https://www.ticketmaster.ie/" target="_blank"" class="btn btn-dark">Buy</a>
+          <button class="buy"></button>
+            <a href="https://www.ticketmaster.ie/" target="_blank" class="btn btn-dark">Buy</a>
         <p class="price">Free</p>
       </td>
       </tr>
@@ -178,7 +183,8 @@
         <td>Digital Arena, Dublin</td>
         <td>27/07/2021 7:00 PM GMT</td>
         <td>
-          <a href="https://www.ticketmaster.ie/" target="_blank"" class="btn btn-dark">Buy</a>
+          <button class="buy"></button>
+          <a href="https://www.ticketmaster.ie/" target="_blank" class="btn btn-dark">Buy</a>
         <p class="price">€59.99</p>
         </td>
       </tr>
@@ -186,8 +192,9 @@
       <tr>
         <td>Point One, Berlin</td>
         <td>02/08/2021 6:00 PM CET</td>
-        <td> 
-          <a href="https://www.ticketmaster.ie/" target="_blank"" class="btn btn-dark">Buy</a>
+        <td>
+          <button class="buy"></button>
+          <a href="https://www.ticketmaster.ie/" target="_blank" class="btn btn-dark">Buy</a>
         <p class="price">€59.99</p>
         </td>
       </tr>
@@ -197,7 +204,8 @@
         <td>Club House, London</td>
         <td>04/08/2021 7:00 PM GMT</td>
         <td>
-          <a href="https://www.ticketmaster.ie/" target="_blank"" class="btn btn-dark">Buy</a>
+          <button class="buy"></button>
+          <a href="https://www.ticketmaster.ie/" target="_blank" class="btn btn-dark">Buy</a>
         <p class="price">€59.99</p>
         </td>
       </tr>
@@ -208,7 +216,7 @@
 </div>
 <!-- End of page (footer) is used across all the pages of our website -->
 <footer class="text-uppercase">
-  <div class=".container-fluid" style="background-color:#000">
+  <div class=".container-fluid" style="background-color:#353d42">
             <br>
             <p>Social Media</p>
             <div class="social-media">
