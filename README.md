@@ -130,7 +130,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the band.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar  alert about the band tour, underneath that is the navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text. (assets/images/screenshot1.png)
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar  alert about the band tour, underneath that is the navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text.(assets/images/screenshot1.png)
         2. The main points are made immediately with the navigation bar, the Hero Image with Live In Concert text.
 
     2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find content.
@@ -140,30 +140,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their fans think of them and know why they are so successful. I also want to locate their social media links to see their followers.
         
-        1. Once the new visitor has read the About Us and what we do text, they will know why we have such a successful career and why we are loved so much by fans all over the World. (assets/images/screenshot2.png) 
-        2. The user can also scroll to the bottom of any page of the site to locate our social media links in the footer. (assets/images/screenshot3.png)
+        1. Once the new visitor has read the About Us and what we do text, they will know why we have such a successful career and why we are loved so much by fans all over the World.(assets/images/screenshot2.png) 
+        2. The user can also scroll to the bottom of any page of the site to locate our social media links in the footer.(assets/images/screenshot3.png)
 
     4. As a First Time Visitor, I want to sign up to the Band Newsletter so that I am emailed any major news or updates.
 
-        1. There is a "Subscribe to our Newsletter" short form with Name and Email Address input on the right, underneath the hero image on the Home page. (assets/images/screenshot4.png)
+        1. There is a "Subscribe to our Newsletter" short form with Name and Email Address input on the right, underneath the hero image on the Home page.(assets/images/screenshot4.png)
         
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find news and check if there's new music or video and information about upcoming events.
 
-        1. These are clearly shown underneath the Hero Image. To the left is an image with text about upcoming show in Dublin with a buy tickets button that will redirect a user to the official ticket site to purchase tickets and beside it is an Album cover of the Band new music. (assets/images/screenshot5.png) Underneath the album cover, there is a music video. (assets/images/screenshot6.png) 
+        1. These are clearly shown underneath the Hero Image. To the left is an image with text about upcoming show in Dublin with a buy tickets button that will redirect a user to the official ticket site to purchase tickets and beside it is an Album cover of the Band new music. (assets/images/screenshot5.png) Underneath the album cover, there is a music video.(assets/images/screenshot6.png) 
     
     2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. The footer contains links to the band Facebook, Youtube, Twitter and Instagram page.
-        3. On the Contact Us page, there is email and telephone contact information of the band agent, management and press relation for booking and general enquiry. (assets/images/screenshot7.png)
+        3. On the Contact Us page, there is email and telephone contact information of the band agent, management and press relation for booking and general enquiry.(assets/images/screenshot7.png)
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see updates about the band upcoming shows and tickets availability.
 
-        1. The user would already be comfortable with the website layout and can easily see information table about upcoming shows and tickets availability at the bottom of the Home page, underneath the band photo carousel. (assets/images/screenshot8.png)
+        1. The user would already be comfortable with the website layout and can easily see information table about upcoming shows and tickets availability at the bottom of the Home page, underneath the band photo carousel.(assets/images/screenshot8.png)
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
